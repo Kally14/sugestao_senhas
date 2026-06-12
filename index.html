@@ -17,20 +17,50 @@
         </div>
         <div class="conteudo-senha">
             <label for="senha">Senha</label>
-            <input name="senha" type="text" id="campo-senha">
+            <input name="senha" type="text" id="campo-senha" value="tixivjyvsxjb" readonly>
         </div>
         <div class="parametro">
             <h3 class="parametro-titulo">Personalize sua senha</h3>
             <div class="parametro-coluna__senha">
+                
                 <div class="parametro-senha">
                     <h4 class="parametro-senha__titulo">Número de caracteres</h4>
+                    <div class="controle-botoes">
+                        <button class="botao-controle">-</button>
+                        <span class="texto-numero">12</span>
+                        <button class="botao-controle">+</button>
+                    </div>
                 </div>                
+                
                 <div class="parametro-senha">
                     <h4 class="parametro-senha__titulo">Características da senha</h4>
+                    <div class="opcoes-checkbox">
+                        <label class="checkbox-container">
+                            <input type="checkbox" name="maiusculas"> Letras maiúsculas
+                        </label>
+                        <label class="checkbox-container">
+                            <input type="checkbox" name="minusculas" checked> Letras minúsculas
+                        </label>
+                        <label class="checkbox-container">
+                            <input type="checkbox" name="numeros"> Números
+                        </label>
+                        <label class="checkbox-container">
+                            <input type="checkbox" name="simbolos"> Símbolos
+                        </label>
+                    </div>
                 </div>
+
                 <div class="parametro-senha">
                     <h4 class="parametro-senha__titulo">Força da senha</h4>
+                    <div class="barra-forca">
+                        <div class="barra-preenchimento media"></div> </div>
+                    <div class="forca-rotulos">
+                        <span>Fraca</span>
+                        <span>Média</span>
+                        <span>Forte</span>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
